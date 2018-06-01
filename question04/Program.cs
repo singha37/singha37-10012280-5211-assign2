@@ -10,11 +10,10 @@ namespace question04
 
             var number = Convert.ToInt32(Console.ReadLine());
 
-            for(var i = 0; i < 12; i++) {
+            for(int i = 0; i < 12; i++) {
                 var a = i + 1;
                 Console.WriteLine($"{a} x {number} = {a * number}");
             }
         }
     }
 }
-)
