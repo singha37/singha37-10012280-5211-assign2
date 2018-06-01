@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-=
+
 namespace question03
 {
     class Program
@@ -16,15 +16,10 @@ namespace question03
                 TimeOfArray.Start();
                  
 
-            foreach(var fruit in fruitsArray) 
-              
-                {
+            foreach(var fruit in fruitsArray)  {
                 Console.WriteLine(fruit);
             }
-             
-            TimeOfArray.Stop();
-            System.Console.WriteLine($"The array took {TimeOfArray.Elapsed.TotalMilliseconds} milsecs to run");
-                
+             TimeOfArray.Stop();   
         }
     }
 }
