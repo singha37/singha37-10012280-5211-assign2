@@ -20,6 +20,7 @@ namespace question03
                 Console.WriteLine(fruit);
             }
              TimeOfArray.Stop();   
+             System.Console.WriteLine($"The array took {TimeOfArray.Elapsed.TotalMilliseconds} milsecs to run");
         }
     }
 }
