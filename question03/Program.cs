@@ -26,11 +26,7 @@ namespace question03
                 TimeOfList.Start();
                  
 
-            foreach(var fruit in fruitsList)  {
-                Console.WriteLine(fruit);
-            }
-             TimeOfList.Stop();   
-             System.Console.WriteLine($"The List took {TimeOfList.Elapsed.TotalMilliseconds} milsecs to run");
+           
         }
     }
 }
