@@ -12,7 +12,7 @@ namespace question05
 
             for(int a = 0; a <= 12; a++) {
                
-                Console.WriteLine($"{a} x {number} = {a / number}");
+                Console.WriteLine($"{a} / {number} = {a / number}");
             }
         }
     }
